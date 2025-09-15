@@ -4,7 +4,6 @@ import { Github, Palette } from "lucide-react";
 import {
   DropdownMenu,
   DropdownMenuContent,
-  DropdownMenuItem,
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuSub,
@@ -17,7 +16,6 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
 } from "@/components/ui/sidebar";
-import { toast } from "sonner";
 import { ThemeSwitcherDropdown } from "@/components/common/theme-switcher-dropdown";
 
 export function NavUser() {
