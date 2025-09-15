@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 import { toolCategories } from "@/lib/routes";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://turinhub.com";
+  const baseUrl = "https://toolbox.91java.com";
 
   // 首页
   const homePage = {
