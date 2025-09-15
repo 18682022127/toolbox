@@ -23,7 +23,7 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "免费在线工具箱",
   description:
-    "常用网页工具的汇集网站，基于 Vercel 和 Cloudflare 提供免费、无广告、无数据存储的常用在线工具箱。",
+    "常用网页工具的汇集网站，无广告、无数据存储的常用在线工具箱。",
   keywords: [
     "在线工具",
     "免费工具",
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     "Base64编码",
     "正则表达式测试",
   ],
-  authors: [{ name: "Turinhub" }],
+  authors: [{ name: "" }],
   creator: "",
   publisher: "",
   formatDetection: {
