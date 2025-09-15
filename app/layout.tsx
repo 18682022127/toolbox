@@ -42,8 +42,8 @@ export const metadata: Metadata = {
     "正则表达式测试",
   ],
   authors: [{ name: "Turinhub" }],
-  creator: "Turinhub",
-  publisher: "Turinhub",
+  creator: "",
+  publisher: "",
   formatDetection: {
     email: false,
     address: false,
