@@ -20,7 +20,5 @@ import {
 export function NavHeader() {
   
 
-  return (
-
-  );
+  return null;
 }
