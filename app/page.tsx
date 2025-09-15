@@ -15,7 +15,7 @@ export default function Home() {
         <h1 className="text-4xl font-bold mb-4 bg-gradient-to-r from-primary/80 to-primary bg-clip-text text-transparent">
         </h1>
         <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-          常用网页工具的汇集网站，基于 Vercel 和 Cloudflare
+          常用网页工具的汇集网站
         </p>
       </section>
 
