@@ -81,7 +81,7 @@ export default function Home() {
 
       <section className="mt-12 text-center">
         <div className="p-6 bg-muted/30 rounded-lg max-w-4xl mx-auto">
-       
+           91java.com
         </div>
       </section>
     </div>
