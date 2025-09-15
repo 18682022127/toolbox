@@ -14,7 +14,7 @@ export function MobileNav() {
     <div className="fixed top-0 left-0 right-0 z-30 flex h-14 items-center justify-between border-b bg-background px-4 md:hidden">
       <Link href="/" className="flex items-center gap-2">
         <Image src="/icon.svg" alt="Logo" width={24} height={24} />
-        <span className="font-semibold">Turinhub Toolbox</span>
+        <span className="font-semibold">91java Toolbox</span>
       </Link>
       <Button
         variant="ghost"
