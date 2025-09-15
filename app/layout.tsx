@@ -21,7 +21,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Turinhub Toolbox - 免费在线工具箱",
+  title: "免费在线工具箱",
   description:
     "常用网页工具的汇集网站，基于 Vercel 和 Cloudflare 提供免费、无广告、无数据存储的常用在线工具箱。",
   keywords: [
@@ -49,33 +49,15 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://turinhub.com"),
+  metadataBase: new URL("https://91java.com"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "Turinhub Toolbox - 免费在线工具箱",
-    description:
-      "常用网页工具的汇集网站，基于 Vercel 和 Cloudflare 提供免费、无广告、无数据存储的常用在线工具箱。",
-    url: "https://turinhub.com",
-    siteName: "Turinhub Toolbox",
-    images: [
-      {
-        url: "https://turinhub.com/og-image.png",
-        width: 1200,
-        height: 630,
-        alt: "Turinhub Toolbox",
-      },
-    ],
-    locale: "zh-CN",
-    type: "website",
+
   },
   twitter: {
-    card: "summary_large_image",
-    title: "Turinhub Toolbox - 免费在线工具箱",
-    description:
-      "常用网页工具的汇集网站，基于 Vercel 和 Cloudflare 提供免费、无广告、无数据存储的常用在线工具箱。",
-    images: ["https://turinhub.com/og-image.png"],
+
   },
   robots: {
     index: true,
