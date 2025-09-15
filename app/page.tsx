@@ -13,11 +13,9 @@ export default function Home() {
     <div className="flex flex-col gap-8 container mx-auto px-4 py-8">
       <section className="text-center py-12">
         <h1 className="text-4xl font-bold mb-4 bg-gradient-to-r from-primary/80 to-primary bg-clip-text text-transparent">
-          Turinhub Toolbox
         </h1>
         <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
           常用网页工具的汇集网站，基于 Vercel 和 Cloudflare
-          提供免费、无广告、无数据存储的常用在线工具箱。
         </p>
       </section>
 
