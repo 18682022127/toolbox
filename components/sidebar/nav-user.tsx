@@ -44,7 +44,7 @@ export function NavUser() {
             align="end"
             sideOffset={4}
           >
-            <DropdownMenuLabel>设置与支持</DropdownMenuLabel>
+            <DropdownMenuLabel>设置</DropdownMenuLabel>
             <DropdownMenuSeparator />
             <DropdownMenuSub>
               <DropdownMenuSubTrigger>
@@ -56,18 +56,6 @@ export function NavUser() {
               </DropdownMenuSubContent>
             </DropdownMenuSub>
             <DropdownMenuSeparator />
-            <DropdownMenuItem
-              onClick={() => {
-                window.open(
-                  "https://github.com/turinhub/toolbox/issues",
-                  "_blank"
-                );
-                toast.success("正在跳转到 GitHub Issues");
-              }}
-            >
-              <Github className="mr-2 h-4 w-4" />
-              <span>反馈问题</span>
-            </DropdownMenuItem>
           </DropdownMenuContent>
         </DropdownMenu>
       </SidebarMenuItem>
