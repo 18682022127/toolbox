@@ -39,10 +39,7 @@ export function NavHeader() {
                 />
               </div>
               <div className="grid flex-1 text-left text-sm leading-tight">
-                <span className="truncate font-semibold">Turinhub Toolbox</span>
-                <span className="truncate text-xs text-muted-foreground">
-                  免费、无广告的在线工具箱
-                </span>
+
               </div>
               <ChevronsUpDown className="ml-auto size-4" />
             </SidebarMenuButton>
@@ -54,11 +51,11 @@ export function NavHeader() {
             sideOffset={4}
           >
             <DropdownMenuLabel className="text-xs text-muted-foreground">
-              关于我们
+             
             </DropdownMenuLabel>
             <DropdownMenuItem asChild>
               <Link
-                href="https://github.com/turinhub/toolbox"
+                href=""
                 className="flex items-center gap-2 p-2"
                 target="_blank"
               >
@@ -78,7 +75,7 @@ export function NavHeader() {
                     <path d="M9 18c-4.51 2-5-2-7-2"></path>
                   </svg>
                 </div>
-                GitHub 项目
+               
               </Link>
             </DropdownMenuItem>
           </DropdownMenuContent>
